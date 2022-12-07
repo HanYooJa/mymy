@@ -1,14 +1,23 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Image from 'next/Image'
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title> Home - Next Tutorial</title>
       </Head>
-      <Link href="about">About</Link>
-      <h1 className={styles.homeTitle}>Welcome Home</h1>
+
+      <h1 className={styles.homeTitle}>
+        유쟈's 홈페이지에 어서오세요 ⸜(♡'ᗜ'♡)⸝💖
+      </h1>
+      <Image
+        objectFit="contain"
+        objectPosition="top right"
+        src="/images/bbo.jpg"
+        width={300}
+        height={300}
+      ></Image>
     </div>
   )
 }

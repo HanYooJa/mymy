@@ -1,9 +1,15 @@
 .container {
   padding: 0 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .homeTitle {
-  color: red;
+  color: rgb(247, 122, 153);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
@@ -35,29 +41,45 @@
 .title a {
   color: #0070f3;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title a:hover,
 .title a:focus,
 .title a:active {
   text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  color: #0070f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title,
 .description {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .code {
