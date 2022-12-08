@@ -8,9 +8,7 @@ export default function Home() {
         <title> Home - Next Tutorial</title>
       </Head>
 
-      <h1 className={styles.homeTitle}>
-        유쟈's 홈페이지에 어서오세요 ⸜(♡'ᗜ'♡)⸝💖
-      </h1>
+      <h1 className={styles.homeTitle}>유쟈의 홈페이지에 어서오세요 💖</h1>
       <Image
         objectFit="contain"
         objectPosition="top right"

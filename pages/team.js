@@ -8,7 +8,7 @@ export default function team() {
       <Image
         objectFit="contain"
         objectPosition="top right"
-        src="/images/5.jpg"
+        src="/images/yang.jpg"
         width={750}
         height={500}
       ></Image>
